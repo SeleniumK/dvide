@@ -2,23 +2,29 @@ body{
   font-family: 'Oswald', sans-serif;
   background-color: #000000;
   color: #FFFFFF;
+}
+
+ul{
   list-style: none;
 }
 
-/*main*/
-#main h1{
-  font-size: 150px;
+h1{
+  font-size: 100px;
   letter-spacing: 30px;
   display: inline
   text-align: center;
   padding-left: 90px;
 }
 
-.slash {
-  font-size: 190px;
-vertical-align: sub;
+
+/*header*/
+header nav, header div{
+  display: inline-block;
 }
 
-.dvide {
-  top: -25px;
+header img{
+  width: 4%;
 }
+/*main*/
+
+
